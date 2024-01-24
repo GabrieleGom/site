@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(151, 200, 228);
+    font-family: Georgia;
+    font-size: 18px;
+    color: azure;
+}
+
+h1 a{
+    color: black;
+}
+
+article h1{
+    color: black;
+}
