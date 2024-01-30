@@ -5,37 +5,101 @@ body{
     color: #143c91;
 }
 
-header{
+.topo{
     background-color: rgb(110, 170, 185) ;
+    padding: 30px;
 }
 
-header a{
+.topo a{
     color: #fff;
     text-decoration: none;
 }
 
-h1 a{
-    color: black;
+.navegacao{
+    display: flex;
+}
+
+.navegacao img{
+    display: flex;
+    width: 100px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
+.menu li{
+    margin-left: 20px;
+}
+
+.menu a:hover{
+    color: rgb(44, 108, 110);
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.titulo a{
+    color: #000000;
     text-decoration: none;
+    font-style: italic;
 }
 
-article h1{
+.texto{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.books{
+    background-color: #50b9c0;
+    padding: 30px;
+    margin-bottom: 30px;
+    width: 300px;
+    border-radius: 80px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.books h1{
     color: black;
+    margin-bottom: 10px;
+    font-size: 30px;
 }
 
-article a{
-    background-color: #fff;
-    color: rgb(22, 90, 155);
+.books img{
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.botao{
+    background-color: #6cc8df;
+    color: rgb(7, 9, 12);
     text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
 }
 
-footer{
+.rodape{
     background-color: rgb(110, 170, 185);
     color: #fff;
+    padding: 30px;
 }
 
-footer a{
+.rodape a{
     color: #063c8d;
     text-decoration: none;
 }
 
+*{
+    margin: 0;
+}
+
+main{
+    padding: 30px;
+}
