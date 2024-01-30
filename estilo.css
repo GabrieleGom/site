@@ -89,11 +89,7 @@ body{
     background-color: rgb(110, 170, 185);
     color: #fff;
     padding: 30px;
-}
-
-.rodape a{
-    color: #063c8d;
-    text-decoration: none;
+    text-align: center;
 }
 
 *{
