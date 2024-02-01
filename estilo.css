@@ -6,7 +6,7 @@ body{
 }
 
 .topo{
-    background-color:#60ccdc;
+    background-color:#43b3ca;
     padding: 30px;
 }
 
@@ -21,7 +21,7 @@ body{
 
 .navegacao img{
     display: flex;
-    width: 100px;
+    /*width: 100px;*/
 }
 
 .menu{
@@ -54,8 +54,14 @@ body{
     margin-bottom: 30px;
 }
 
+.grade{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
+}
+
 .books{
-    background-color:#43b3ca;
+    background-color:#60ccdc;
     padding: 30px;
     margin-bottom: 30px;
     width: 300px;
@@ -77,18 +83,22 @@ body{
 }
 
 .botao{
-    background-color: #7ee5ed;
-    color: rgb(7, 9, 12);
+    background-color: #9bfeff;
+    color:#000000;
     text-decoration: none;
     padding: 10px;
     display: inline-block;
     border-radius: 20px;
 }
 
+.botao:hover{
+    background-color: #0a9c9c;
+}
+
 .rodape{
-    background-color: #60ccdc;
-    color: #fff;
-    padding: 30px;
+    background-color:#43b3ca;
+    color: #ffffff;
+    padding: 50px;
     text-align: center;
 }
 
