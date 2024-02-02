@@ -89,6 +89,8 @@ body{
     padding: 10px;
     display: inline-block;
     border-radius: 20px;
+    font-size: 15px;
+    border: 0;
 }
 
 .botao:hover{
@@ -104,6 +106,7 @@ body{
 
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 
 main{
@@ -117,3 +120,41 @@ main{
 .color4 { #7ee5ed };
 .color5 { #9bfeff };
 */
+
+/*Contato.html*/
+
+.contato{
+    background-color: #60ccdc;
+    padding: 30px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+.rotulo{
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.campo{
+    background-color: #9bfeff;
+    display: block;
+    width: 100%;
+    height: 20px;
+    padding-left: 10px;
+    font-size: 14px;
+    border: none;
+}
+
+.campo:focus{
+    background-color: #eeeeee;
+}
+
+textarea.campo{
+    height: 120px;
+    padding: 10px;
+    font-family: Georgia;
+}
+
