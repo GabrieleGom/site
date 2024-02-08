@@ -8,7 +8,7 @@ body{
 .topo{
     background-color:#43b3ca;
     padding: 30px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .topo a{
@@ -32,8 +32,9 @@ body{
 }
 
 .menu li{
-    margin-left: 10px;
+    margin-left: 9px;
 }
+/* dimensão 320: 5px */
 
 .menu a:hover{
     color: rgb(44, 108, 110);
@@ -42,6 +43,7 @@ body{
 .titulo{
     text-align: center;
     margin-bottom: 10px;
+    font-size: 28px;
 }
 
 .titulo a{
@@ -56,9 +58,8 @@ body{
 }
 
 .grade{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    /* colocar 320px no grid-template */
+    display: grid;  
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));  /* colocar 320px no grid-template */
     gap: 20px;
 }
 
@@ -66,8 +67,7 @@ body{
     background-color:#60ccdc;
     padding: 30px;
     margin-bottom: 30px;
-    max-width: 320px;
-    /* colocar 320px no width(max-width) */
+    max-width: 300px;   /* colocar 320px no width(max-width) */
     border-radius: 80px;
     text-align: center;
     margin-left: auto;
@@ -77,11 +77,15 @@ body{
 .books h1{
     color: black;
     margin-bottom: 10px;
-    font-size: 30px;
+    font-size: 22px; /* font-size: 20px dimensão 320*/
+
 }
 
 .books img{
-    width: 200px;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    width: 70%;
     margin-bottom: 20px;
 }
 
@@ -114,7 +118,8 @@ body{
 }
 
 main{
-    padding: 30px;
+    padding: 10px;
+    border: 0;
 }
 
 /*
@@ -168,5 +173,15 @@ textarea.campo{
     width: 100%;
 
     /* padding: 20px; */
+}
+
+@media(min-width: 768px){
+    .topo{
+        font-size: 16px;
+    }
+
+    .books h1{
+        font-size: 20pxpx;
+    }
 }
 
