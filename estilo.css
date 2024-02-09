@@ -1,13 +1,13 @@
 body{
     background-color:#9bfeff;
-    color: #143c91;
-    font-family: Georgia;
+    color: #000000;
+    font-family: Calibri;
     font-size: 18px;
 }
 
 .topo{
     background-color:#43b3ca;
-    padding: 30px;
+    padding: 2px 4px 10px 4px;
     font-size: 16px;
 }
 
@@ -18,6 +18,16 @@ body{
 
 .navegacao{
     display: flex;
+    padding: 1px;
+    align-items: center;
+}
+
+nav .log{ /*altera o nome abaixo da imagem no header*/
+    color: #fff;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+   
 }
 
 .navegacao img{
@@ -27,6 +37,7 @@ body{
 
 .menu{
     display: flex;
+    padding: 1px;
     list-style: none;
     margin-left: auto;
 }
@@ -49,7 +60,7 @@ body{
 .titulo a{
     color: #000000;
     text-decoration: none;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 .texto{
@@ -178,6 +189,7 @@ textarea.campo{
 @media(min-width: 768px){
     .topo{
         font-size: 16px;
+        padding: 5px 10px 10px 10px;
     }
 
     .books h1{

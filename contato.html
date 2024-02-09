@@ -9,14 +9,14 @@
 <body>
     <header class="topo">
         <nav class="navegacao">
-            <a href="index.html"><img src="img1.png" alt="logo" height="80" width="80">Leituras Inspiradoras</a>
+            <a class="log" href="index.html"><img src="img1.png" alt="logo" height="80" width="80">Leituras Inspiradoras</a>
             <ul class="menu">
                 <li>
                     <a href="index.html">Home</a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="leituras.html">Leituras</a>
-                </li>
+                </li> -->
                 <li>
                     <a href="clubeDoLivro.html">Clube do Livro</a>
                 </li>
@@ -31,15 +31,16 @@
 
         <h1 class="titulo"><a href="">Contato</a></h1>
         <p class="texto">Fale conosco!</p>
+        <p class="texto">Os campos com * são de preenchimento obrigatório!</p>
         <form class="contato">
             <label class="rotulo">
-                Nome
-                <input class="campo" type="text">
+                Nome*
+                <input required class="campo" type="text">
             </label>
 
             <label class="rotulo">
-                Email
-                <input class="campo" type="email">
+                Email*
+                <input required class="campo" type="email">
             </label>
 
             <label class="rotulo">
@@ -52,8 +53,8 @@
             </label>
 
             <label class="rotulo">
-                Mesagem
-                <textarea class="campo"></textarea>
+                Mesagem*
+                <textarea required class="campo"></textarea>
             </label>
             
             <button class="botao">Enviar</button>
